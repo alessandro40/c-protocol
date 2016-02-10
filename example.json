@@ -1,0 +1,47 @@
+[
+  {
+    "name": "action",
+    "fields": [
+      {
+        "name": "type",
+        "value": 0,
+        "size": 1
+      },
+      {
+        "name": "angle",
+        "type": "uint16_t",
+        "size": 2
+      },
+      {
+        "name": "dist",
+        "type": "uint8_t",
+        "size": 1
+      },
+      {
+        "name": "speed",
+        "type": "uint16_t",
+        "size": 2
+      }
+    ]
+  },
+  {
+    "name": "ack",
+    "fields": [
+      {
+        "name": "type",
+        "value": 1,
+        "size": 1
+      },
+      {
+        "name": "id_ack",
+        "type": "uint16_t",
+        "size": 2
+      },
+      {
+        "name": "state",
+        "type": "uint8_t",
+        "size": 1
+      }
+    ]
+  }
+]
